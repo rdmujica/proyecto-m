@@ -1,6 +1,24 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "packages/**/src/*.stories.tsx",
+        "packages/**/.eslint*",
+        "packages/**/.stylelint*",
+        "packages/**/package-lock.json"
+      ]
+    },
+    "version": {
+      "conventionalCommits": true,
+      "ignoreChanges": [
+        "**/__mocks__/**",
+        "**/__tests__/**",
+        "**/*.md",
+        "**/package-lock.json"
+      ],
+      "message": "chore: bumping version of packages"
+    }
+  },
+  "packages": ["packages/*"],
   "version": "independent"
 }
