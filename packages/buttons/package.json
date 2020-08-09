@@ -1,6 +1,6 @@
 {
   "name": "buttons-ym",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Buttons react lerna",
   "keywords": [
     "lerna",
@@ -30,6 +30,6 @@
     "url": "https://github.com/rdmujica/proyecto-m/issues"
   },
   "dependencies": {
-    "spinner-ym": "^0.0.1"
+    "spinner-ym": "^0.1.0"
   }
 }
