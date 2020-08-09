@@ -26,7 +26,7 @@
     "lerna:build:dev": "lerna run build:dev",
     "lerna:build": "lerna run build",
     "lerna:clean": "lerna clean",
-    "lerna:publish": "lerna publish from-git",
+    "lerna:publish": "lerna run build && lerna publish from-git",
     "lerna:version": "lerna version --include-merged-tags --conventional-commits"
   },
   "husky": {
