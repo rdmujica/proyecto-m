@@ -1,5 +1,5 @@
 import React from 'react'
-import { SpinnerRings } from 'spinner-ym'
+import { SpinnerRing } from 'spinner-ym'
 import './button.css'
 
 const Button = (props) => {
@@ -10,7 +10,7 @@ const Button = (props) => {
     <button type='button' className={className} {...rest}>
       {labelButton}
       {children}
-      {disabled && <SpinnerRings />}
+      {disabled && <SpinnerRing />}
     </button>
   )
 }
