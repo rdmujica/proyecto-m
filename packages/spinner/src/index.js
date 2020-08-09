@@ -1,4 +1,5 @@
 import SpinnerRing from './spinnerRing'
 import SpinnerDual from './spinnerDual'
+import SpinnerHeart from './spinnerHeart'
 
-export { SpinnerRing, SpinnerDual }
+export { SpinnerRing, SpinnerDual, SpinnerHeart }
