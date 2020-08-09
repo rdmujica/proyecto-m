@@ -11,13 +11,13 @@
     "babel-loader": "8.1.0",
     "css-loader": "4.2.1",
     "lerna": "3.22.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "style-loader": "1.2.1",
     "webpack": "4.44.1",
     "webpack-cli": "3.3.12",
     "webpack-merge": "5.1.1",
-    "webpack-node-externals": "^2.5.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "webpack-node-externals": "^2.5.1"
   },
   "scripts": {
     "lerna:bootstrap": "lerna bootstrap --hoist",
