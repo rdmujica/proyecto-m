@@ -10,6 +10,7 @@
     "@commitlint/config-lerna-scopes": "9.1.1",
     "babel-loader": "8.1.0",
     "css-loader": "4.2.1",
+    "husky": "4.2.5",
     "lerna": "3.22.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
@@ -27,5 +28,10 @@
     "lerna:clean": "lerna clean",
     "lerna:publish": "lerna publish from-git",
     "lerna:version": "lerna version --include-merged-tags --conventional-commits"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
